@@ -1,25 +1,39 @@
 # AI Engineer Learning Journey
 
-Welcome to my personal **AI Engineering Learning Repository**!
+Welcome to my personal AI Engineering Learning Repository.  
+This is where I document everything I’m learning on my journey to becoming an AI Engineer — from machine learning theory to real-world projects and experiments.
 
-This is a place where I document everything I learn on my path to becoming an AI engineer — from core machine learning theory to practical model building and deployment.  
-All code, notes, experiments, and insights are written in English to make the knowledge accessible and shareable with the global tech community.
-
-## Why this repository?
-
-- To organize my knowledge in one place
-- To practice real-world AI tools and frameworks (like PyTorch, Transformers, etc.)
-- To build a public portfolio of projects and experiments
-- To learn in public and help others doing the same
-
-## What's included?
-
-- Hands-on code examples with explanations
-- Notes and summaries of key AI/ML concepts
-- Model training experiments and results
-- Mini-projects, prototypes, and utilities
+All content is in English to make it globally accessible and helpful for others.
 
 ---
 
-This is not just a collection of files — it's a living notebook of my AI journey.  
-Feel free to explore, learn something new, or reach out with ideas and suggestions!
+## Why this repository?
+
+- Organize my knowledge in one place  
+- Practice with real-world AI tools and frameworks (like PyTorch, Transformers, etc.)  
+- Build a public portfolio of code and projects  
+- Learn in public and share insights with the community
+
+---
+
+## What’s included?
+
+- Step-by-step notes for each major AI topic  
+- Code examples with explanations  
+- Mini-projects and hands-on experiments  
+- Concepts explained in simple language
+
+---
+
+> This is not just a collection of files — it's a living notebook of my learning path.  
+> Feel free to explore, learn something new, or fork it to start your own journey.
+
+---
+
+## Topics
+
+- [What is a Neural Network?](./topics/01_neural_networks.md)
+
+---
+
+Made with care and curiosity by an aspiring AI Engineer.
