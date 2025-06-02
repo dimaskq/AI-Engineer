@@ -19,6 +19,9 @@ output = activation(w1x1 + w2x2 + ... + wn*xn + bias)
 - `w1, w2...` – weights (what the model learns)  
 - `bias` – a small shift added to the result  
 - `activation` – a function that shapes the output
+![Perceptron](../images/perceptron.webp)
+
+*Image: The Simplest Neuron.*
 
 ---
 
@@ -34,12 +37,24 @@ output = activation(w1x1 + w2x2 + ... + wn*xn + bias)
 
 ## Activation Functions
 
-These decide what signal moves forward.
+Activation functions decide what signal moves forward in a neural network.  
+They introduce **non-linearity**, allowing the network to learn complex patterns.
 
-| Function | What it does | When to use |
-|----------|--------------|-------------|
-| **Sigmoid** | Squashes output to [0, 1] | Binary classification |
-| **ReLU** | If input > 0 → returns input, else 0 | Most common, fast training |
+| Function    | What it does                             | When to use               |
+|-------------|------------------------------------------|---------------------------|
+| **Sigmoid** | Squashes output to [0, 1]                | Binary classification     |
+| **ReLU**    | If input > 0 → returns input, else 0     | Most common, fast training|
+
+![Activation Functions](../images/sigmoid-relu.png)
+
+*Image: Example of Sigmoid and ReLU functions.*
+
+### Why are activation functions needed?
+
+Without activation functions, neural networks would behave like linear models,  
+no matter how many layers they have. Activation functions introduce **non-linearity**,  
+which enables neural networks to model complex functions like images, speech, and language.  
+They allow the network to learn and represent intricate patterns beyond simple linear relationships.
 
 ---
 
@@ -78,6 +93,7 @@ Once the model sees how wrong it was, it works **backward** to fix itself:
 1. It calculates how much each weight caused the error  
 2. Finds the **gradient** (derivative) — direction to move to fix it  
 3. Updates the weights using **gradient descent**
+![Backpropagation](../images/backpropagation.jpg)
 
 > This is how the model improves after each example.
 
@@ -112,6 +128,10 @@ An **epoch** is one full pass through the training data.
 
 - [Gradient Descent](https://www.youtube.com/watch?v=f9oDe4Yq4E0)
 - [Neural Networks from Scratch (3Blue1Brown style animation)](https://www.youtube.com/watch?v=V-OBpiYLQOI)
+- [The perceptron neuron: the simplest AI](https://www.youtube.com/watch?v=xHAG4GJPA-Q)
+- [Perceptron: Simplest type of Artificial Neural Network](https://medium.com/deep-ai/perceptron-simplest-type-of-artificial-neural-network-1b571bf193c8)
+- [What is Forward Propagation in Neural Networks?](https://www.geeksforgeeks.org/what-is-forward-propagation-in-neural-networks/)
+- [Backpropagation in Neural Network](https://www.geeksforgeeks.org/backpropagation-in-neural-network/)
 
 ---
 
