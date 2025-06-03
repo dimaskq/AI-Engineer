@@ -34,6 +34,7 @@ All content is in English to make it globally accessible and helpful for others.
 
 - [What is a Neural Network?](./topics/01_neural_networks.md)
 - [How Neural Networks Learn – Forward & Backpropagation](./topics/02_forward_backprop.md)
+- [Tasks on napmay](./topics/matrixproblems.md)
 
 ---
 
